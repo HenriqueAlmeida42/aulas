@@ -17,7 +17,7 @@ mode r = Modo de leitura. r = read()
 
 """
 # Exemplo
-arquivo = open('citação.txt', encoding='UTF-8') # por padrao apareceu um enconding diferente que nao assimilava
+arquivo = open('../citação.txt', encoding='UTF-8') # por padrao apareceu um enconding diferente que nao assimilava
 # a acentuação, ao mudar para o UTF-8 funciono!!
 
 # print(arquivo)

@@ -10,7 +10,7 @@ Passo a Passo para se trabalhar com arquivos
 utilizados são fechados após o bloco with.
 
 """
-with open('citação.txt', encoding='UTF-8') as arquivo:
+with open('../citação.txt', encoding='UTF-8') as arquivo:
     print(arquivo.readlines())
     print(arquivo.closed)  # Verifica se o arquivo foi fechado (false pois ainda esta aberto)
 

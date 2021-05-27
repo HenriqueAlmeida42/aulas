@@ -85,7 +85,7 @@ print(arquivo.closed)
 """
 
 #  1 - Abrir o arquivo;
-arquivo = open('citação.txt', encoding='UTF-8')
+arquivo = open('../citação.txt', encoding='UTF-8')
 
 #  2 - Manipular o arquivo;
 print(arquivo.read())
